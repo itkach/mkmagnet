@@ -1,0 +1,23 @@
+* mkmagnet
+  A program to create bittorrent magent link from a torrent file.
+
+** Installation
+
+   #+BEGIN_SRC sh
+   pip install git+https://github.com/itkach/mkmagnet.git
+   #+END_SRC
+
+** Usage
+   #+BEGIN_SRC sh
+python -m mkmagnet [-h] [-q] [--base32] file
+
+positional arguments:
+  file         Path to torrent file
+
+optional arguments:
+  -h, --help   show this help message and exit
+  -q, --quiet  Be quiet
+  --base32     Use base32 instead of hex digest (for compatibility with old
+               clients)
+
+   #+END_SRC
