@@ -8,4 +8,6 @@ setup(name='mkmagnet',
       url='http://github.com/itkach/mkmagnet',
       license='Public Domain',
       py_modules = ['mkmagnet'],
-      install_requires=['bencode'])
+      install_requires=['bencode'],
+      entry_points={'console_scripts': ['mkmagnet=mkmagnet:main']}
+)

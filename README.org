@@ -9,7 +9,7 @@
 
 ** Usage
    #+BEGIN_SRC sh
-python -m mkmagnet [-h] [-q] [--base32] file
+mkmagnet [-h] [-q] [--base32] file
 
 positional arguments:
   file         Path to torrent file
