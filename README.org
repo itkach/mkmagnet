@@ -1,5 +1,5 @@
 * mkmagnet
-  A program to create bittorrent magent link from a torrent file.
+  A program to create bittorrent magnet link from a torrent file.
 
 ** Installation
 
